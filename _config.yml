@@ -1,2 +1,5 @@
-name: Hank Quinlan, Horrible Cop
+name: KOZWaves
 markdown: kramdown
+
+plugins:
+  - jekyll-gist
