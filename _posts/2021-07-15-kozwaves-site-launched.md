@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "KOZWaves launches new site"
-date: 2021-07-15
+date: 2021-09-04
 ---
 
-It's a woprk in progress.
+It's basic at present but has all the essential information. 
