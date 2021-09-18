@@ -11,40 +11,31 @@ title: KOZWaves, Australasian wave science
 
 </div><!-- /.blurb -->
 
-<!--<p>The KOZWaves conference series provides a forum for contemporary research on wave science, promoting interdisciplinary collaborations between Australasian wave scientists, and with international researchers. It focusses on advancing mathematical and numerical techniques across the different branches of wave science, including acoustics, elasticity, electromagnetics and water waves.</p>
+<div class="row">
 
-	<p>Previous conferences themes include:
-	
-	Anderson localisation;
-	Cloaking;
-	Effective media;
-Elastodynamics;
-Experimental modelling;
-Extreme ocean waves;
-Homogenization;
-Internal waves;
-Metamaterials;
-Operational wave forecasting;
-Optical imaging;
-Scattering;
-Seismology;
-Time reversal;
-Trapping;
-Wave energy converters;
-Wave–ice interactions;
-</p>-->
+ <div class="column">
+  <ul class="posts">
+   {% for post in site.posts %}
+   <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+   {% endfor %}
+  </ul>
+ </div>
 
-<a href="https://twitter.com/KOZWaves?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @KOZWaves</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ <div class="column">
 
-<a href="https://twitter.com/intent/tweet?screen_name=KOZWaves&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @KOZWaves</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a href="https://twitter.com/KOZWaves?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @KOZWaves</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<a class="twitter-timeline"
+  <a href="https://twitter.com/intent/tweet?screen_name=KOZWaves&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @KOZWaves</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <a class="twitter-timeline"
    href="https://twitter.com/KOZWaves?ref_src=twsrc%5Etfw"
    data-width="400"
    data-height="300"
    data-chrome="nofooter noscrollbar noborders transparent"
    data-tweet-limit="3">KOZWaves Tweets</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ </div>
 
 <!--
 <a class="twitter-timeline"
@@ -56,9 +47,3 @@ Wave–ice interactions;
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 -->
 
-<ul class="posts">
-
- {% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
- {% endfor %}
-</ul>
