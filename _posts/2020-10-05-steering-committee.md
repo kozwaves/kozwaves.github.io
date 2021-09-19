@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Excited to announce the KOZWaves steering committee"
+title: "KOZWaves steering committee announced"
 date: 2020-10-05
 ---
 
